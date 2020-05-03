@@ -1,0 +1,20 @@
+{
+  "label": "List",
+  "description": "Default list",
+  "attrs": [
+    {
+      "name": "text",
+      "orderNumber": 10
+    },
+    {
+      "name": "attributes",
+      "eagerLoading": true,
+      "orderNumber": 20
+    },
+    {
+      "name": "except",
+      "label": "Except",
+      "orderNumber": 30
+    }
+  ]
+}

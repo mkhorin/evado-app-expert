@@ -1,0 +1,182 @@
+[
+  {
+    "_id": {
+      "$oid": "5ea8c190f2539e148c547e07"
+    },
+    "name": "lion.svg",
+    "mime": "image/svg+xml",
+    "size": 20401,
+    "file": "2020-04/5ea8c190f2539e148c547e06",
+    "createdAt": {
+      "$date": "2020-04-28T23:51:44.375Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5ea8c191f2539e148c547e08"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8c195f2539e148c547e0a"
+    },
+    "name": "zebra.svg",
+    "mime": "image/svg+xml",
+    "size": 6044,
+    "file": "2020-04/5ea8c195f2539e148c547e09",
+    "createdAt": {
+      "$date": "2020-04-28T23:51:49.457Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5ea8c196f2539e148c547e0b"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccca8a3632a19508a41d7"
+    },
+    "name": "leopard.svg",
+    "mime": "image/svg+xml",
+    "size": 35845,
+    "file": "2020-05/5eaccca8a3632a19508a41d6",
+    "createdAt": {
+      "$date": "2020-05-02T01:28:08.826Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5eacccaca3632a19508a41d8"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccce0a3632a19508a41e1"
+    },
+    "name": "crococdile.svg",
+    "mime": "image/svg+xml",
+    "size": 22497,
+    "file": "2020-05/5eaccce0a3632a19508a41e0",
+    "createdAt": {
+      "$date": "2020-05-02T01:29:04.412Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5eaccce1a3632a19508a41e2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccd34a3632a19508a41e5"
+    },
+    "name": "cheetah.svg",
+    "mime": "image/svg+xml",
+    "size": 13837,
+    "file": "2020-05/5eaccd34a3632a19508a41e4",
+    "createdAt": {
+      "$date": "2020-05-02T01:30:28.668Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5eacccc9a3632a19508a41df"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccd9fa3632a19508a41e9"
+    },
+    "name": "elephant.svg",
+    "mime": "image/svg+xml",
+    "size": 7893,
+    "file": "2020-05/5eaccd9fa3632a19508a41e8",
+    "createdAt": {
+      "$date": "2020-05-02T01:32:15.129Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5eacccb9a3632a19508a41dc"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccdbda3632a19508a41eb"
+    },
+    "name": "gorilla.svg",
+    "mime": "image/svg+xml",
+    "size": 7146,
+    "file": "2020-05/5eaccdbda3632a19508a41ea",
+    "createdAt": {
+      "$date": "2020-05-02T01:32:45.360Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5eaccdbea3632a19508a41ec"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacce35a3632a19508a41f7"
+    },
+    "name": "giraff.svg",
+    "mime": "image/svg+xml",
+    "size": 4889,
+    "file": "2020-05/5eacce35a3632a19508a41f6",
+    "createdAt": {
+      "$date": "2020-05-02T01:34:45.156Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5eaccdeca3632a19508a41f4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacce95a3632a19508a41f9"
+    },
+    "name": "baboon.svg",
+    "mime": "image/svg+xml",
+    "size": 13214,
+    "file": "2020-05/5eacce95a3632a19508a41f8",
+    "createdAt": {
+      "$date": "2020-05-02T01:36:21.993Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5eaccdd2a3632a19508a41f0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacd5fbb157c91b30fcc624"
+    },
+    "name": "hippo.svg",
+    "mime": "image/svg+xml",
+    "size": 5608,
+    "file": "2020-05/5eacd5fbb157c91b30fcc623",
+    "createdAt": {
+      "$date": "2020-05-02T02:07:55.567Z"
+    },
+    "creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "owner": {
+      "$oid": "5ea8c18cf2539e148c547e05"
+    }
+  }
+]

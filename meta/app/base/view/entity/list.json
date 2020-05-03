@@ -1,0 +1,14 @@
+{
+  "label": "List",
+  "description": "Default list",
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 10
+    },
+    {
+      "name": "picture",
+      "orderNumber": 30
+    }
+  ]
+}

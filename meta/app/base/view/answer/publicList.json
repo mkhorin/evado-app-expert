@@ -1,0 +1,9 @@
+{
+  "label": "Public list",
+  "attrs": [
+    {
+      "name": "text",
+      "orderNumber": 10
+    }
+  ]
+}

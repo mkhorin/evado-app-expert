@@ -1,0 +1,83 @@
+
+<div class="page" data-page="main" data-handler="MainPage">
+
+    <div class="page-head">
+        <ol class="breadcrumb">
+            <li data-t="">Main</li>
+        </ol>
+    </div>
+
+    <h1 data-t="">Expert system demo</h1>
+
+    <div class="es" data-handler="Expert">
+
+        <div class="questions"></div>
+
+        <template data-id="question">
+            <div class="question" data-id="{{_id}}">
+                <div class="question-text" data-t="meta.class.question">{{text}}</div>
+                <div class="answers block-list form form-horizontal">
+                    {{answers}}
+                </div>
+                <div class="question-controls">
+                    <button type="button" class="btn btn-primary" data-action="submit">
+                        <span data-t="">Submit</span>
+                    </button>
+                    <button type="button" class="btn btn-default" data-action="back">
+                        <span data-t="">Back</span>
+                    </button>
+                </div>
+            </div>
+        </template>
+
+        <template data-id="checkItem">
+            <label class="checkbox checkbox-inline">
+                <input value="{{_id}}" type="checkbox">
+                <span data-t="meta.class.answer">{{text}}</span>
+            </label>
+        </template>
+
+        <template data-id="radioItem">
+            <label class="radio radio-inline">
+                <input value="{{_id}}" name="{{name}}" type="radio">
+                <span data-t="meta.class.answer">{{text}}</span>
+            </label>
+        </template>
+
+        <template data-id="message">
+            <div class="question">
+                <div class="alert-warning alert">{{text}}</div>
+                <div class="question-controls">
+                    <button type="button" class="btn btn-default" data-action="back">
+                        <span data-t="">Back</span>
+                    </button>
+                </div>
+            </div>
+        </template>
+
+        <template data-id="result">
+            <div class="question-result question">
+                <div class="question-head" data-t="">Found matches</div>
+                <div class="result thumbnail-sm">{{items}}</div>
+                <div class="question-controls">
+                    <button type="button" class="btn btn-default" data-action="back">
+                        <span data-t="">Back</span>
+                    </button>
+                </div>
+            </div>
+        </template>
+
+        <template data-id="entity">
+            <div class="entity">
+                <h3 data-t="meta.class.entity">{{name}}</h3>
+                <img data-src="<%- _url('/api/base/file/thumbnail') %>?v=.picture&id={{picture}}"
+                     class="thumbnail img-responsive" alt="">
+            </div>
+        </template>
+
+        <template data-id="error">
+            <div class="alert-danger alert">{{text}}</div>
+        </template>
+
+    </div>
+</div>

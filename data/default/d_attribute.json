@@ -1,0 +1,156 @@
+[
+  {
+    "_id": {
+      "$oid": "5ea8b0b461c5000cecc8b21b"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Large body size",
+    "_createdAt": {
+      "$date": "2020-04-28T22:39:48.947Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:32:56.730Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b0ba61c5000cecc8b21c"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Predator",
+    "_createdAt": {
+      "$date": "2020-04-28T22:39:54.687Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:33:26.146Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b0c061c5000cecc8b21d"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Herbivore",
+    "_createdAt": {
+      "$date": "2020-04-28T22:40:00.656Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:33:43.160Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b11d61c5000cecc8b21e"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Average body size",
+    "_createdAt": {
+      "$date": "2020-04-28T22:41:33.817Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:32:41.537Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacdc52b157c91b30fcc628"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Hoofed",
+    "_createdAt": {
+      "$date": "2020-05-02T02:34:58.335Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf262ef978b149c225625"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Land animal",
+    "_createdAt": {
+      "$date": "2020-05-02T04:09:06.852Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf30aef978b149c225626"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Semiaquatic animal",
+    "_createdAt": {
+      "$date": "2020-05-02T04:11:54.727Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf424ef978b149c225627"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Furry",
+    "_createdAt": {
+      "$date": "2020-05-02T04:16:36.147Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf7288773d71238e16330"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Primate",
+    "_createdAt": {
+      "$date": "2020-05-02T04:29:28.914Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf8008773d71238e16334"
+    },
+    "_class": "attribute",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Even-toed ungulates",
+    "_createdAt": {
+      "$date": "2020-05-02T04:33:04.372Z"
+    }
+  }
+]

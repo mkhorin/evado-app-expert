@@ -1,0 +1,176 @@
+[
+  {
+    "_id": {
+      "$oid": "5ea8b28661c5000cecc8b225"
+    },
+    "_class": "question",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "What is the body size of the animal?",
+    "answers": [
+      {
+        "$oid": "5ea8b26961c5000cecc8b223"
+      },
+      {
+        "$oid": "5ea8b27d61c5000cecc8b224"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-04-28T22:47:34.643Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:43:21.470Z"
+    },
+    "multiple": false,
+    "active": true
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b2f461c5000cecc8b228"
+    },
+    "_class": "question",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "What does this animal eat?",
+    "answers": [
+      {
+        "$oid": "5ea8b2d861c5000cecc8b226"
+      },
+      {
+        "$oid": "5ea8b2ef61c5000cecc8b227"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-04-28T22:49:24.442Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:47:59.715Z"
+    },
+    "multiple": true,
+    "active": true
+  },
+  {
+    "_id": {
+      "$oid": "5eacda0db157c91b30fcc627"
+    },
+    "_class": "question",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Does the animal have hooves?",
+    "multiple": false,
+    "answers": [
+      {
+        "$oid": "5eacd9ffb157c91b30fcc625"
+      },
+      {
+        "$oid": "5eacda0ab157c91b30fcc626"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T02:25:17.238Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:48:02.490Z"
+    },
+    "active": true
+  },
+  {
+    "_id": {
+      "$oid": "5eacf1caef978b149c225624"
+    },
+    "_class": "question",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "What environment does the animal prefer?",
+    "multiple": false,
+    "answers": [
+      {
+        "$oid": "5eacf46aef978b149c225628"
+      },
+      {
+        "$oid": "5eacf4f3ef978b149c225629"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:06:34.669Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:43:12.353Z"
+    },
+    "active": true
+  },
+  {
+    "_id": {
+      "$oid": "5eacf608ef978b149c22562c"
+    },
+    "_class": "question",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Does the animal have fur?",
+    "multiple": false,
+    "answers": [
+      {
+        "$oid": "5eacf5a7ef978b149c22562a"
+      },
+      {
+        "$oid": "5eacf603ef978b149c22562b"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:24:40.363Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:47:56.757Z"
+    },
+    "active": true
+  },
+  {
+    "_id": {
+      "$oid": "5eacf7318773d71238e16332"
+    },
+    "_class": "question",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Does the animal have nimble fingers?",
+    "multiple": false,
+    "answers": [
+      {
+        "$oid": "5eacf72f8773d71238e16331"
+      },
+      {
+        "$oid": "5eacf77e8773d71238e16333"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:29:37.802Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:43:06.427Z"
+    },
+    "active": true
+  }
+]

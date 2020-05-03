@@ -1,0 +1,380 @@
+[
+  {
+    "_id": {
+      "$oid": "5ea8b08161c5000cecc8b216"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Lion",
+    "attributes": [
+      {
+        "$oid": "5ea8b0b461c5000cecc8b21b"
+      },
+      {
+        "$oid": "5ea8b0ba61c5000cecc8b21c"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      },
+      {
+        "$oid": "5eacf424ef978b149c225627"
+      }
+    ],
+    "picture": {
+      "$oid": "5ea8c191f2539e148c547e08"
+    },
+    "_createdAt": {
+      "$date": "2020-04-28T22:38:57.660Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:16:36.149Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b08e61c5000cecc8b217"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Hippo",
+    "attributes": [
+      {
+        "$oid": "5ea8b0b461c5000cecc8b21b"
+      },
+      {
+        "$oid": "5ea8b0ba61c5000cecc8b21c"
+      },
+      {
+        "$oid": "5ea8b0c061c5000cecc8b21d"
+      },
+      {
+        "$oid": "5eacdc52b157c91b30fcc628"
+      },
+      {
+        "$oid": "5eacf30aef978b149c225626"
+      },
+      {
+        "$oid": "5eacf8008773d71238e16334"
+      }
+    ],
+    "picture": {
+      "$oid": "5ea8c18cf2539e148c547e05"
+    },
+    "_createdAt": {
+      "$date": "2020-04-28T22:39:10.042Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:33:04.373Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b09861c5000cecc8b218"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Cheetah",
+    "attributes": [
+      {
+        "$oid": "5ea8b0ba61c5000cecc8b21c"
+      },
+      {
+        "$oid": "5ea8b11d61c5000cecc8b21e"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      },
+      {
+        "$oid": "5eacf424ef978b149c225627"
+      }
+    ],
+    "picture": {
+      "$oid": "5eacccc9a3632a19508a41df"
+    },
+    "_createdAt": {
+      "$date": "2020-04-28T22:39:20.202Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:16:36.150Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b09d61c5000cecc8b219"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Zebra",
+    "attributes": [
+      {
+        "$oid": "5ea8b0c061c5000cecc8b21d"
+      },
+      {
+        "$oid": "5ea8b11d61c5000cecc8b21e"
+      },
+      {
+        "$oid": "5eacdc52b157c91b30fcc628"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      }
+    ],
+    "picture": {
+      "$oid": "5ea8c196f2539e148c547e0b"
+    },
+    "_createdAt": {
+      "$date": "2020-04-28T22:39:25.297Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:09:06.860Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b0a161c5000cecc8b21a"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Elephant",
+    "attributes": [
+      {
+        "$oid": "5ea8b0b461c5000cecc8b21b"
+      },
+      {
+        "$oid": "5ea8b0c061c5000cecc8b21d"
+      },
+      {
+        "$oid": "5eacdc52b157c91b30fcc628"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      }
+    ],
+    "picture": {
+      "$oid": "5eacccb9a3632a19508a41dc"
+    },
+    "_createdAt": {
+      "$date": "2020-04-28T22:39:29.871Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:09:06.863Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacccafa3632a19508a41d9"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Leopard",
+    "picture": {
+      "$oid": "5eacccaca3632a19508a41d8"
+    },
+    "attributes": [
+      {
+        "$oid": "5ea8b11d61c5000cecc8b21e"
+      },
+      {
+        "$oid": "5ea8b0ba61c5000cecc8b21c"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      },
+      {
+        "$oid": "5eacf424ef978b149c225627"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T01:28:15.453Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:16:36.153Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccce3a3632a19508a41e3"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Crocodile",
+    "picture": {
+      "$oid": "5eaccce1a3632a19508a41e2"
+    },
+    "attributes": [
+      {
+        "$oid": "5ea8b0b461c5000cecc8b21b"
+      },
+      {
+        "$oid": "5ea8b0ba61c5000cecc8b21c"
+      },
+      {
+        "$oid": "5eacf30aef978b149c225626"
+      },
+      {
+        "$oid": "5ea8b11d61c5000cecc8b21e"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T01:29:07.284Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:37:20.086Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccdc0a3632a19508a41ed"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Gorilla",
+    "picture": {
+      "$oid": "5eaccdbea3632a19508a41ec"
+    },
+    "attributes": [
+      {
+        "$oid": "5ea8b0b461c5000cecc8b21b"
+      },
+      {
+        "$oid": "5ea8b0c061c5000cecc8b21d"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      },
+      {
+        "$oid": "5eacf424ef978b149c225627"
+      },
+      {
+        "$oid": "5eacf7288773d71238e16330"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T01:32:48.383Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:29:28.917Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccdd3a3632a19508a41f1"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Baboon",
+    "picture": {
+      "$oid": "5eaccdd2a3632a19508a41f0"
+    },
+    "attributes": [
+      {
+        "$oid": "5ea8b11d61c5000cecc8b21e"
+      },
+      {
+        "$oid": "5ea8b0ba61c5000cecc8b21c"
+      },
+      {
+        "$oid": "5ea8b0c061c5000cecc8b21d"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      },
+      {
+        "$oid": "5eacf424ef978b149c225627"
+      },
+      {
+        "$oid": "5eacf7288773d71238e16330"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T01:33:07.927Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:29:28.920Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacce02a3632a19508a41f5"
+    },
+    "_class": "entity",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "name": "Giraffe",
+    "picture": {
+      "$oid": "5eaccdeca3632a19508a41f4"
+    },
+    "attributes": [
+      {
+        "$oid": "5ea8b0b461c5000cecc8b21b"
+      },
+      {
+        "$oid": "5ea8b0c061c5000cecc8b21d"
+      },
+      {
+        "$oid": "5eacdc52b157c91b30fcc628"
+      },
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      },
+      {
+        "$oid": "5eacf8008773d71238e16334"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T01:33:54.646Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T04:33:04.384Z"
+    }
+  }
+]

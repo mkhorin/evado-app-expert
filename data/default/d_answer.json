@@ -1,0 +1,272 @@
+[
+  {
+    "_id": {
+      "$oid": "5ea8b26961c5000cecc8b223"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Average size",
+    "attributes": [
+      {
+        "$oid": "5ea8b11d61c5000cecc8b21e"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-04-28T22:47:05.984Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:52:26.859Z"
+    },
+    "except": false
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b27d61c5000cecc8b224"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Large size",
+    "attributes": [
+      {
+        "$oid": "5ea8b0b461c5000cecc8b21b"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-04-28T22:47:25.836Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:52:24.659Z"
+    },
+    "except": false
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b2d861c5000cecc8b226"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Meal",
+    "attributes": [
+      {
+        "$oid": "5ea8b0ba61c5000cecc8b21c"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-04-28T22:48:56.596Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:52:20.143Z"
+    },
+    "except": false
+  },
+  {
+    "_id": {
+      "$oid": "5ea8b2ef61c5000cecc8b227"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Plants",
+    "attributes": [
+      {
+        "$oid": "5ea8b0c061c5000cecc8b21d"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-04-28T22:49:19.562Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:52:22.349Z"
+    },
+    "except": false
+  },
+  {
+    "_id": {
+      "$oid": "5eacd9ffb157c91b30fcc625"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "No hooves",
+    "attributes": [
+      {
+        "$oid": "5eacdc52b157c91b30fcc628"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T02:25:03.709Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:51:28.295Z"
+    },
+    "except": true
+  },
+  {
+    "_id": {
+      "$oid": "5eacda0ab157c91b30fcc626"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Have hooves",
+    "attributes": [
+      {
+        "$oid": "5eacdc52b157c91b30fcc628"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T02:25:14.619Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:52:18.182Z"
+    },
+    "except": false
+  },
+  {
+    "_id": {
+      "$oid": "5eacf46aef978b149c225628"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Land environment",
+    "except": false,
+    "attributes": [
+      {
+        "$oid": "5eacf262ef978b149c225625"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:17:46.442Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf4f3ef978b149c225629"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Water environment",
+    "except": false,
+    "attributes": [
+      {
+        "$oid": "5eacf30aef978b149c225626"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:20:03.945Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf5a7ef978b149c22562a"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "No fur",
+    "except": true,
+    "attributes": [
+      {
+        "$oid": "5eacf424ef978b149c225627"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:23:03.406Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf603ef978b149c22562b"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Yes it`s fluffy",
+    "except": false,
+    "attributes": [
+      {
+        "$oid": "5eacf424ef978b149c225627"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:24:35.152Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T22:31:52.221Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf72f8773d71238e16331"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "No nimble fingers",
+    "except": true,
+    "attributes": [
+      {
+        "$oid": "5eacf7288773d71238e16330"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:29:35.702Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacf77e8773d71238e16333"
+    },
+    "_class": "answer",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "text": "Have nimble fingers",
+    "except": false,
+    "attributes": [
+      {
+        "$oid": "5eacf7288773d71238e16330"
+      }
+    ],
+    "_createdAt": {
+      "$date": "2020-05-02T04:30:54.359Z"
+    }
+  }
+]

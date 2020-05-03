@@ -1,0 +1,182 @@
+[
+  {
+    "_id": {
+      "$oid": "5ea8c18cf2539e148c547e05"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eacd5fbb157c91b30fcc623",
+    "_size": 5608,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-04-28T23:51:40.347Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T02:07:56.893Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8c191f2539e148c547e08"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-04/5ea8c190f2539e148c547e06",
+    "_size": 20401,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-04-28T23:51:45.607Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea8c196f2539e148c547e0b"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-04/5ea8c195f2539e148c547e09",
+    "_size": 6044,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-04-28T23:51:50.416Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacccaca3632a19508a41d8"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eaccca8a3632a19508a41d6",
+    "_size": 35845,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-05-02T01:28:12.435Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacccb9a3632a19508a41dc"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eaccd9fa3632a19508a41e8",
+    "_size": 7893,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-05-02T01:28:25.781Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T01:32:17.200Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eacccc9a3632a19508a41df"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eaccd34a3632a19508a41e4",
+    "_size": 13837,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-05-02T01:28:41.986Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T01:30:29.889Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccce1a3632a19508a41e2"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eaccce0a3632a19508a41e0",
+    "_size": 22497,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-05-02T01:29:05.793Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccdbea3632a19508a41ec"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eaccdbda3632a19508a41ea",
+    "_size": 7146,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-05-02T01:32:46.619Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccdd2a3632a19508a41f0"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eacce95a3632a19508a41f8",
+    "_size": 13214,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-05-02T01:33:06.724Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T01:36:28.728Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5eaccdeca3632a19508a41f4"
+    },
+    "_class": "picture",
+    "_creator": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "file": "2020-05/5eacce35a3632a19508a41f6",
+    "_size": 4889,
+    "_mime": "image/svg+xml",
+    "_createdAt": {
+      "$date": "2020-05-02T01:33:32.981Z"
+    },
+    "_editor": {
+      "$oid": "5ea4c3b14fe8600e38092ec1"
+    },
+    "_updatedAt": {
+      "$date": "2020-05-02T01:34:46.512Z"
+    }
+  }
+]
