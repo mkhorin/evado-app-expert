@@ -16,7 +16,7 @@ module.exports = class ExpertController extends Base {
             throw new NotFound;
         }
         const index = MathHelper.random(0, counter - 1);
-        const model = await query.offset(index).withFormData().one();
+        const model = await query.offset(index).withReadData().one();
         if (!model) {
             throw new NotFound;
         }
@@ -59,7 +59,7 @@ module.exports = class ExpertController extends Base {
             return this.sendResult(entities, entityClass);
         }
         const id = ArrayHelper.getRandom(newQuestions);
-        const model = await questionClass.getView('publicList').findById(id).withFormData().one();
+        const model = await questionClass.getView('publicList').findById(id).withReadData().one();
         this.sendJson({question: model.output()});
     }
 

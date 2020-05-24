@@ -44,8 +44,7 @@ module.exports = {
             children: [
                 'moduleAdmin',
                 'moduleOffice',
-                'moduleStudio',
-                'upload'
+                'moduleStudio'
             ]
         },
         'guest': {
@@ -55,7 +54,7 @@ module.exports = {
     },
 
     assignments: {
-        'Adam': ['administrator']
+        'Adam': 'administrator'
     },
 
     rules: {
