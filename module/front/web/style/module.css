@@ -175,7 +175,7 @@ legend {
 }
 .question-result {
     padding-top: 60px;
-    border-color: #b0d6e0;
+    border-color: #0ae;
 }
 .question-head {
     position: absolute;
@@ -185,6 +185,6 @@ legend {
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
-    color: #3c8dbc;
-    background: #e9f7f9;
+    color: #fff;
+    background: #0ae;
 }

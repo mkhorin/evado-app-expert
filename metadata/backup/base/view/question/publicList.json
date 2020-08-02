@@ -1,0 +1,29 @@
+{
+  "label": "Public list",
+  "filter": [
+    "AND",
+    {
+      "active": true
+    },
+    [
+      "NOT EMPTY",
+      "answers"
+    ]
+  ],
+  "attrs": [
+    {
+      "name": "text",
+      "orderNumber": 10
+    },
+    {
+      "name": "multiple",
+      "orderNumber": 20
+    },
+    {
+      "name": "answers",
+      "eagerLoading": true,
+      "eagerView": "publicList",
+      "orderNumber": 30
+    }
+  ]
+}

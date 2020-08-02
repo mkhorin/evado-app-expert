@@ -76,8 +76,8 @@ module.exports = class ExpertController extends Base {
 };
 module.exports.init(module);
 
-const BadRequest = require('areto/error/BadRequestHttpException');
-const NotFound = require('areto/error/NotFoundHttpException');
+const BadRequest = require('areto/error/http/BadRequest');
+const NotFound = require('areto/error/http/NotFound');
 const MathHelper = require('areto/helper/MathHelper');
 const ArrayHelper = require('areto/helper/ArrayHelper');
 const MongoHelper = require('areto/helper/MongoHelper');
