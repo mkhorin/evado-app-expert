@@ -34,6 +34,9 @@ module.exports = {
         'moduleStudio': {
             label: 'Studio module',
             description: 'Access to Studio module'
+        },
+        'moduleApiBaseUpload': {
+            label: 'Upload files'
         }
     },
 
@@ -44,7 +47,8 @@ module.exports = {
             children: [
                 'moduleAdmin',
                 'moduleOffice',
-                'moduleStudio'
+                'moduleStudio',
+                'moduleApiBaseUpload',
             ]
         },
         'guest': {
@@ -53,10 +57,10 @@ module.exports = {
         }
     },
 
-    assignments: {
-        'Adam': 'administrator'
+    rules: {
     },
 
-    rules: {
+    assignments: {
+        'Adam': 'administrator'
     }
 };
