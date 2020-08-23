@@ -11,6 +11,8 @@ const expertUrl = _url('/api/base/expert/');
 const metaUrl = _url('/api/base/meta/');
 %>
 
+<%- include(_view.get('_part/signboard')) %>
+
 <div class="front"
      data-guest="<%- _controller.user.isGuest() %>"
      data-data-url="<%- dataUrl %>"
