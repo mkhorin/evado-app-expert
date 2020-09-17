@@ -2,7 +2,7 @@
 
 Emulation of expert decision making ability.
 
-- [Evado Framework](https://github.com/mkhorin/evado)
+- [Evado Declarative Framework](https://github.com/mkhorin/evado)
 - [Step-by-step tutorial](http://nervebit.com)
 
 ## Docker installation
@@ -13,17 +13,6 @@ cd /app
 docker-compose up -d mongo
 docker-compose up --build installer
 docker-compose up -d server
-```
-Usage - http://localhost:3000
-
-Or get Docker Toolbox IP address
-```sh
-docker-machine ip default
-```
-Usage - http://{dockerIP}:3000
-```sh
-Email: a@a.a
-Password: 123456
 ```
 
 ## Typical installation
@@ -51,8 +40,11 @@ node console/install
 node console/start
 ```
 
-#### Usage
-http://localhost:3000
+## Usage
+
+Web interface: [http://localhost:3000](http://localhost:3000)
+
+Sign in as administrator:
 ```sh
 Email: a@a.a
 Password: 123456
