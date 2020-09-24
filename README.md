@@ -1,9 +1,7 @@
-# Evado Expert System App
+# Evado Expert System
 
-Emulation of expert decision making ability.
-
-- [Evado Declarative Framework](https://github.com/mkhorin/evado)
-- [Step-by-step tutorial](http://nervebit.com)
+Expert decision emulation app built on 
+[Evado Declarative Framework](https://github.com/mkhorin/evado).
 
 ## Docker installation
 
@@ -51,4 +49,4 @@ Password: 123456
 ```
 
 ## Tutorial
-- [Build App Without Coding](http://nervebit.com)
+- [Build an App Without Coding](http://nervebit.com)
