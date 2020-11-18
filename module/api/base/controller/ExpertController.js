@@ -10,15 +10,15 @@ module.exports = class ExpertController extends Base {
     async actionFirstQuestion () {
         const metaClass = this.getMetaClass('question');
         const metaView = this.getMetaView('publicList', metaClass);
-        const query = metaView.find(this.getSpawnConfig());
+        const query = metaView.createQuery(this.getSpawnConfig());
         const counter = await query.count();
         if (!counter) {
-            throw new NotFound;
+            throw new NotFound('First question no found');
         }
         const index = MathHelper.random(0, counter - 1);
         const model = await query.offset(index).withReadData().one();
         if (!model) {
-            throw new NotFound;
+            throw new NotFound('First question no found');
         }
         this.sendJson(model.output());
     }
