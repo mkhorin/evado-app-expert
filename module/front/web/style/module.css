@@ -1,12 +1,8 @@
-:root {
-    --color-danger: #a94442;
-    --color-gray: #aaa;
-    --color-primary: #3c8dbc;
+body {
+    --navbar-color: var(--light-warning);
+    --super-navbar-color: var(--dark-warning);
+    --sidebar-width: 0;
 }
-legend {
-    font-size: 15px;
-}
-
 .front-wrapper {
     background: none !important;
 }
@@ -31,13 +27,6 @@ legend {
 }
 .modal-footer {
     text-align: center;
-}
-.signboard {
-    padding: 20px;
-    margin-top: 20px;
-    color: #884;
-    background: #ffe;
-    border-bottom: 2px solid #cca;
 }
 
 /* LOADABLE */
@@ -64,7 +53,6 @@ legend {
 
 .page {
     display: none;
-    padding: 20px 0 30px;
 }
 .page.active {
     display: block;
@@ -82,19 +70,14 @@ legend {
 .page .icon-title h1 {
     margin: 25px 0 10px;
 }
-.page .icon-title .thumbnail {
-    margin-right: 30px;
+.page .icon-title .img-thumbnail {
+    margin: 0 2rem 1rem 0;
 }
 
 /* BREADCRUMB */
 
 .breadcrumb {
-    padding-right: 145px;
-    border-left: 2px solid #3c8dbc;
-    border-radius: 0;
-}
-.breadcrumb + h1 {
-    margin-top: 30px;
+    background: #eff;
 }
 
 /* USER */
@@ -105,18 +88,17 @@ legend {
     top: 0;
     cursor: pointer;
     color: #666;
-    line-height: 36px;
+    line-height: 3rem;
     padding: 0 12px;
     border-left: 1px solid #ddd;
 }
 .user-toggle:hover {
-    color: var(--color-primary);
+    color: var(--primary);
 }
 
 /* QUESTIONS */
 
 .questions {
-
     margin-bottom: 20px;
 }
 .question {
@@ -143,9 +125,8 @@ legend {
     display: inline-block;
 }
 .question-text {
-    margin-bottom: 15px;
-    font-size: 18px;
-    color: #888;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 .question:last-child .question-controls {
     display: block;
@@ -171,7 +152,7 @@ legend {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.question .entity .thumbnail {
+.question .entity .img-thumbnail {
     margin: 0;
     width: 128px;
     height: 128px;

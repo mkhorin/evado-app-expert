@@ -3,7 +3,7 @@
 
     <div class="page-head">
         <ol class="breadcrumb">
-            <li data-t="">Main</li>
+            <li class="breadcrumb-item" data-t="">Main</li>
         </ol>
     </div>
 
@@ -16,14 +16,14 @@
         <template data-id="question">
             <div class="question" data-id="{{_id}}">
                 <div class="question-text" data-t="meta.class.question">{{text}}</div>
-                <div class="answers block-list form form-horizontal">
+                <div class="answers block-list form">
                     {{answers}}
                 </div>
                 <div class="question-controls">
                     <button type="button" class="btn btn-primary" data-action="submit">
                         <span data-t="">Submit</span>
                     </button>
-                    <button type="button" class="btn btn-default" data-action="back">
+                    <button type="button" class="btn-outline-secondary btn" data-action="back">
                         <span data-t="">Back</span>
                     </button>
                 </div>
@@ -31,24 +31,24 @@
         </template>
 
         <template data-id="checkItem">
-            <label class="checkbox checkbox-inline">
-                <input value="{{_id}}" type="checkbox">
-                <span data-t="meta.class.answer">{{text}}</span>
-            </label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="{{_id}}">
+                <label class="form-check-label" data-t="meta.class.answer">{{text}}</label>
+            </div>
         </template>
 
         <template data-id="radioItem">
-            <label class="radio radio-inline">
-                <input value="{{_id}}" name="{{name}}" type="radio">
-                <span data-t="meta.class.answer">{{text}}</span>
-            </label>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" value="{{_id}}" name="{{name}}">
+                <label class="form-check-label" data-t="meta.class.answer">{{text}}</label>
+            </div>
         </template>
 
         <template data-id="message">
             <div class="question">
                 <div class="alert-warning alert">{{text}}</div>
                 <div class="question-controls">
-                    <button type="button" class="btn btn-default" data-action="back">
+                    <button type="button" class="btn-outline-secondary btn" data-action="back">
                         <span data-t="">Back</span>
                     </button>
                 </div>
@@ -60,7 +60,7 @@
                 <div class="question-head" data-t="">Found matches</div>
                 <div class="result thumbnail-sm">{{items}}</div>
                 <div class="question-controls">
-                    <button type="button" class="btn btn-default" data-action="back">
+                    <button type="button" class="btn-outline-secondary btn" data-action="back">
                         <span data-t="">Back</span>
                     </button>
                 </div>
@@ -71,13 +71,12 @@
             <div class="entity">
                 <h3 data-t="meta.class.entity">{{name}}</h3>
                 <img data-src="<%- _url('/api/base/file/thumbnail') %>?c=picture&id={{picture}}"
-                     class="thumbnail img-responsive" alt="">
+                     class="img-thumbnail img-fluid" alt="">
             </div>
         </template>
 
         <template data-id="error">
             <div class="alert-danger alert">{{text}}</div>
         </template>
-
     </div>
 </div>

@@ -58,7 +58,7 @@ Front.Expert = class Expert extends Front.Element {
             return this.createQuestion(data.question);
         }
         if (data.message) {
-            const text = Jam.i18n.translate(data.message);
+            const text = Jam.t(data.message);
             return this.$questions.append(this.resolveTemplate('message', {text}));
         }
         if (data.result) {
@@ -73,14 +73,15 @@ Front.Expert = class Expert extends Front.Element {
     }
 
     createError (text) {
-        text = Jam.i18n.translate(text);
+        text = Jam.t(text);
         this.$container.append(this.resolveTemplate('error', {text}));
     }
 
     createQuestion (data) {
         data.answers = data.answers.map(item => this.createAnswer(item, data)).join('');
         this.$questions.append(this.resolveTemplate('question', data));
-        this.translateContainer();
+        Jam.t(this.$container);
+        Jam.Helper.bindLabelsToInputs(this.$container);
     }
 
     createAnswer (data, question) {
@@ -117,8 +118,8 @@ Front.Expert = class Expert extends Front.Element {
     createResult (items) {
         items = items.map(this.createEntity, this).join('');
         this.$questions.append(this.resolveTemplate('result', {items}));
-        this.translateContainer();
-        Jam.Helper.executeSerialImageLoading($(this.container));
+        Jam.t(this.$container);
+        Jam.Helper.executeSerialImageLoading(this.$container);
     }
 
     createEntity (data) {

@@ -8,9 +8,9 @@ const Base = require('evado-api-base/component/BaseController');
 module.exports = class ExpertController extends Base {
 
     async actionFirstQuestion () {
-        const metaClass = this.getMetaClass('question');
-        const metaView = this.getMetaView('publicList', metaClass);
-        const query = metaView.createQuery(this.getSpawnConfig());
+        const cls = this.getMetadataClass('question');
+        const view = this.getMetadataView('publicList', cls);
+        const query = view.createQuery(this.getSpawnConfig());
         const counter = await query.count();
         if (!counter) {
             throw new NotFound('First question no found');

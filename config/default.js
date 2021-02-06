@@ -17,7 +17,7 @@ module.exports = {
             secret: 'expert.evado'
         },
         'i18n': {
-            // language: 'ru'
+            language: 'en'
         },
         'router': {
             // defaultModule: 'front'
