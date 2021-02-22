@@ -1,6 +1,6 @@
 # Evado Expert System
 
-Expert decision emulation app 
+Expert decision app 
 built on [Evado Declarative Framework](https://github.com/mkhorin/evado).
 
 ## Docker installation
