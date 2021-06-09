@@ -4,7 +4,7 @@
       "$oid": "5ea8c190f2539e148c547e07"
     },
     "name": "lion.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 20401,
     "file": "2020-04/5ea8c190f2539e148c547e06",
     "createdAt": {
@@ -22,7 +22,7 @@
       "$oid": "5ea8c195f2539e148c547e0a"
     },
     "name": "zebra.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 6044,
     "file": "2020-04/5ea8c195f2539e148c547e09",
     "createdAt": {
@@ -40,7 +40,7 @@
       "$oid": "5eaccca8a3632a19508a41d7"
     },
     "name": "leopard.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 35845,
     "file": "2020-05/5eaccca8a3632a19508a41d6",
     "createdAt": {
@@ -58,7 +58,7 @@
       "$oid": "5eaccce0a3632a19508a41e1"
     },
     "name": "crococdile.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 22497,
     "file": "2020-05/5eaccce0a3632a19508a41e0",
     "createdAt": {
@@ -76,7 +76,7 @@
       "$oid": "5eaccd34a3632a19508a41e5"
     },
     "name": "cheetah.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 13837,
     "file": "2020-05/5eaccd34a3632a19508a41e4",
     "createdAt": {
@@ -94,7 +94,7 @@
       "$oid": "5eaccd9fa3632a19508a41e9"
     },
     "name": "elephant.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 7893,
     "file": "2020-05/5eaccd9fa3632a19508a41e8",
     "createdAt": {
@@ -112,7 +112,7 @@
       "$oid": "5eaccdbda3632a19508a41eb"
     },
     "name": "gorilla.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 7146,
     "file": "2020-05/5eaccdbda3632a19508a41ea",
     "createdAt": {
@@ -130,7 +130,7 @@
       "$oid": "5eacce35a3632a19508a41f7"
     },
     "name": "giraff.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 4889,
     "file": "2020-05/5eacce35a3632a19508a41f6",
     "createdAt": {
@@ -148,7 +148,7 @@
       "$oid": "5eacce95a3632a19508a41f9"
     },
     "name": "baboon.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 13214,
     "file": "2020-05/5eacce95a3632a19508a41f8",
     "createdAt": {
@@ -166,7 +166,7 @@
       "$oid": "5eacd5fbb157c91b30fcc624"
     },
     "name": "hippo.svg",
-    "mime": "image/svg+xml",
+    "type": "image/svg+xml",
     "size": 5608,
     "file": "2020-05/5eacd5fbb157c91b30fcc623",
     "createdAt": {

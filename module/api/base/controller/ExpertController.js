@@ -58,7 +58,7 @@ module.exports = class ExpertController extends Base {
         if (!newQuestions.length) {
             return this.sendResult(entities, entityClass);
         }
-        const id = ArrayHelper.getRandom(newQuestions);
+        const id = ArrayHelper.random(newQuestions);
         const model = await questionClass.getView('publicList').findById(id).withReadData().one();
         this.sendJson({question: model.output()});
     }
