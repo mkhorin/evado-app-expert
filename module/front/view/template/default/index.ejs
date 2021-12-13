@@ -1,22 +1,69 @@
 <%
 layout(_view.get('_layout/content'));
 
-script('front/vendor/front.min.js');
-script('front/script/module.js');
+script('front/vendor/vue/vue.js');
 
-const dataUrl = _url('/api/base/data/');
-const expertUrl = _url('/api/base/expert/');
-const metaUrl = _url('/api/base/meta/');
+script('front/script/mixin.js');
+script('front/script/question.js');
+script('front/script/front.js');
+
+const user = _controller.user;
 %>
+
+<%- include('./_question') %>
 
 <%- include(_view.get('_part/signboard')) %>
 
-<div class="front"
-     data-guest="<%- _controller.user.isGuest() %>"
-     data-data-url="<%- dataUrl %>"
-     data-expert-url="<%- expertUrl %>"
-     data-meta-url="<%- metaUrl %>">
+<div id="front" class="page"
+     data-data-url="<%- _url('/api/base/expert') %>"
+     data-thumbnail-url="<%- _url('/api/base/file/thumbnail') %>?c=picture"
+     data-csrf="<%- _controller.getCsrfToken() %>">
 
-    <%- include('./_main') %>
+    <h1 data-t="">Expert system demo</h1>
 
+    <div class="expert-system loadable-container">
+
+        <div class="questions">
+            <question
+                v-for="(item, index) of questions"
+                ref="question"
+                :key="item._id"
+                :item="item"
+                :index="index"
+                @submit="onSubmitQuestion"
+                @back="onBackQuestion">
+            </question>
+        </div>
+
+        <template v-if="results">
+            <div class="question-result question">
+                <template v-if="Array.isArray(results)">
+                    <div class="question-head" data-t="">Found matches</div>
+                    <div class="result thumbnail-sm">
+                        <div v-for="item of results" class="entity">
+                            <h3>{{item.name}}</h3>
+                            <img :src="item.url" class="img-thumbnail img-fluid" alt="">
+                        </div>
+                    </div>
+                </template>
+                <template v-else>
+                    <div class="question-head" data-t="">Not found</div>
+                    <div class="alert-warning alert" data-t="">{{results}}</div>
+                </template>
+                <div class="question-controls">
+                    <button @click="onBackQuestion" type="button" class="btn-outline-secondary btn">
+                        <span data-t="">Back</span>
+                    </button>
+                </div>
+            </div>
+        </template>
+
+        <div v-show="!loading && empty" class="alert-warning alert">
+            <span data-t="">No questions found</span>
+        </div>
+
+        <div v-show="loading" class="loader">
+            <i class="fa fa-spinner fa-spin"></i>
+        </div>
+    </div>
 </div>

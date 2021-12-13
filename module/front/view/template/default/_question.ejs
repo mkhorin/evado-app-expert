@@ -1,0 +1,28 @@
+<template id="question">
+    <div :class="{'answered': !active, 'question': true}">
+        <div class="question-text">{{text}}</div>
+        <div class="answers block-list form">
+            <template v-for="item of answers">
+                <div class="form-check form-check-inline">
+                    <input
+                        v-model="value"
+                        :id="item.uid"
+                        :value="item.id"
+                        :name="id"
+                        :type="item.type"
+                        :disabled="!active"
+                        class="form-check-input">
+                    <label :for="item.uid" class="form-check-label">{{item.text}}</label>
+                </div>
+            </template>
+        </div>
+        <div class="question-controls">
+            <button v-show="active && !empty" @click="onSubmit" type="button" class="btn btn-primary">
+                <span data-t="">Submit</span>
+            </button>
+            <button v-if="active && !first" @click="onBack" type="button" class="btn-outline-secondary btn">
+                <span data-t="">Back</span>
+            </button>
+        </div>
+    </div>
+</template>

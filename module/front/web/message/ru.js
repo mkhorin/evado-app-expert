@@ -10,6 +10,9 @@ Object.assign(Jam.I18n.defaults, {
 
     'Main': 'Главная',
 
+    'Not found': 'Не найдено',
+    'No matching entities': 'Нет соответствующих объектов',
+
     'Submit': 'Отправить',
 });
 
