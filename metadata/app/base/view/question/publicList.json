@@ -1,12 +1,12 @@
 {
   "label": "Public list",
   "filter": [
-    "AND",
+    "and",
     {
       "active": true
     },
     [
-      "NOT EMPTY",
+      "notEmpty",
       "answers"
     ]
   ],

@@ -37,7 +37,7 @@ module.exports = class ExpertController extends Base {
         const excludedAttrs = this.getAnswerAttrs(answers, true);
         const condition = includedAttrs.map(id => ({attributes: id}));
         if (excludedAttrs.length) {
-            condition.push(['NOT IN', 'attributes', excludedAttrs]);
+            condition.push(['notIn', 'attributes', excludedAttrs]);
         }
         const entities = await entityClass.find(...condition).raw().all();
         if (!entities.length) {
@@ -54,7 +54,7 @@ module.exports = class ExpertController extends Base {
         const newAnswers = await answerClass.find({attributes: newAttrs}).ids();
         const newQuestions = await questionClass.find()
             .and({active: true, answers: newAnswers})
-            .and(['NOT ID', questionClass.getKey(), questionIds]).ids();
+            .and(['notId', questionClass.getKey(), questionIds]).ids();
         if (!newQuestions.length) {
             return this.sendResult(entities, entityClass);
         }
