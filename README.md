@@ -1,4 +1,4 @@
-# Evado Expert System
+# Expert System
 
 Expert decision web app 
 built on [Evado Declarative Framework](https://github.com/mkhorin/evado).
