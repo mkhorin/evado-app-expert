@@ -24,8 +24,7 @@ module.exports = class ExpertController extends Base {
     }
 
     async actionNextQuestion () {
-        const answerIds = this.getPostParam('answers');
-        const questionIds = this.getPostParam('questions');
+        const {answers: answerIds, questions: questionIds} = this.getPostParams();
         if (!Array.isArray(answerIds) || !Array.isArray(questionIds)) {
             throw new BadRequest;
         }
@@ -59,7 +58,8 @@ module.exports = class ExpertController extends Base {
             return this.sendResult(entities, entityClass);
         }
         const id = ArrayHelper.random(newQuestions);
-        const model = await questionClass.getView('publicList').findById(id).withReadData().one();
+        const view = questionClass.getView('publicList');
+        const model = await view.findById(id).withReadData().one();
         this.sendJson({question: model.output()});
     }
 
@@ -70,8 +70,11 @@ module.exports = class ExpertController extends Base {
 
     async sendResult (entities, entityClass) {
         const ids = entities.map(data => data[entityClass.getKey()]);
-        const models = await entityClass.getView('publicList').findById(ids).all();
-        this.sendJson({result: models.map(model => model.output())});
+        const view = entityClass.getView('publicList');
+        const models = await view.findById(ids).all();
+        this.sendJson({
+            result: models.map(model => model.output())
+        });
     }
 };
 module.exports.init(module);
