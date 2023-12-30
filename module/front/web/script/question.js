@@ -6,12 +6,12 @@ Vue.component('question', {
         item: Object
     },
     data () {
-        const data = this.item;
+        const {item} = this;
         return {
-            id: data._id,
-            text: Jam.t(data.text, 'meta.class.question'),
-            multiple: data.multiple,
-            answers: data.answers,
+            id: item._id,
+            text: Jam.t(item.text, 'meta.class.question'),
+            multiple: item.multiple,
+            answers: item.answers,
             value: null,
             active: true
         };
